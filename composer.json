@@ -1,0 +1,26 @@
+{
+    "name": "timonline/contentlength",
+    "description": "Automatically add Content-Length response headers",
+    "keywords": ["realestate", "headers", "response", "Content-Length"],
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leon Bogaert", 
+            "email": "leon@tim-online.nl",
+            "homepage": "http://www.tim-online.nl"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\Timonline\\Contentlength\\": ""
+        }
+    },
+    "extra": {}
+}
